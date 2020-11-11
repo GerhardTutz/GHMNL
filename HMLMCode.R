@@ -1,5 +1,4 @@
-getwd() # check 
-setwd("C:\\Users\\Gerhard Tutz\\LRZ Sync+Share\\TuRegrHetMultinomial\\R")
+
 
 
 ##################################################################
@@ -143,7 +142,7 @@ Tr
 #####contraceptive data
 ################################################
 
-go <- read.table("C:\\Users\\Gerhard Tutz\\LRZ Sync+Share\\TuRegrHetMultinomial\\R\\cmc.data",sep=",")
+go <- read.table(cmc.data",sep=",")
 
 summary(go)
 colnames(go) <- c("wage", "wedu", "hedu", "child", "wrel","wwork","hocc","livind","medexpo", "contra")
