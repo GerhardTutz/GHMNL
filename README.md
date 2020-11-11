@@ -1,14 +1,14 @@
  GHMNL
 
-###################################################################
+
 Fits the general heterogeneous logit model described in
 Tutz, G. (2020) Uncertain Choices: the Heterogeneous Multinomial Logit Model,
                 Sociological Methodology
-##################################################################
+
 
  The function GHMNL fits a  more general model with two sorts of explanatory variables
 
-#########        Explanatory variables: distinguish between  
+        Explanatory variables: distinguish between  
 
         global variables (not category-specific) like gender,age
         category-specific variables like price in transportation mode
@@ -16,9 +16,9 @@ Tutz, G. (2020) Uncertain Choices: the Heterogeneous Multinomial Logit Model,
         in Tutz, G. (2020) Uncertain Choices: the Heterogeneous Multinomial Logit Model,
                            Sociological Methodology, all variables are global
     
-###Basic arguments of the function:
+Basic arguments of the function:
 
-#GHMNL <- function(dat, namesglob,Indglob,namescats, Indcats,nameshet,nameresp, k,penalty){
+GHMNL <- function(dat, namesglob,Indglob,namescats, Indcats,nameshet,nameresp, k,penalty){
   
    dat:         data in long format (k rows for each observation ) 
    namesglob:   names of variables with global effects (subject-specific)
