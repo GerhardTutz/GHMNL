@@ -18,7 +18,7 @@ Tutz, G. (2020) Uncertain Choices: the Heterogeneous Multinomial Logit Model,
     
 Basic arguments of the function:
 
-GHMNL <- function(dat, namesglob,Indglob,namescats, Indcats,nameshet,nameresp, k,penalty){
+GHMNL <- function(dat, namesglob,Indglob,namescats, Indcats,nameshet,nameresp, k,penalty)
   
    dat:         data in long format (k rows for each observation ) 
    
