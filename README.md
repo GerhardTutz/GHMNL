@@ -1,6 +1,6 @@
  GHMNL
 
-
+ 
 Fits the general heterogeneous logit model described in
 Tutz, G. (2020) Uncertain Choices: the Heterogeneous Multinomial Logit Model,
                 Sociological Methodology
