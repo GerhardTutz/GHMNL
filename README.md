@@ -14,8 +14,8 @@
 ##########################        category-specific variables like price in transportation mode
 ##########################        if all variables are global specify any variable in nameshet, but use Indcats=0
 ##########################        in Tutz, G. (2020) Uncertain Choices: the Heterogeneous Multinomial Logit Model,
-#                                    Sociological Methodology, all variables are glogal
-
+##########################                           Sociological Methodology, all variables are global
+    
 ###Basic arguments of the function:
 
 #GHMNL <- function(dat, namesglob,Indglob,namescats, Indcats,nameshet,nameresp, k,penalty){
