@@ -20,26 +20,26 @@ Basic arguments of the function:
 
 GHMNL <- function(dat, namesglob,Indglob,namescats, Indcats,nameshet,nameresp, k,penalty)
   
-   dat:         data in long format (k rows for each observation ) 
+    dat:         data in long format (k rows for each observation ) 
    
-   namesglob:   names of variables with global effects (subject-specific)
+    namesglob:   names of variables with global effects (subject-specific)
    
-   Indglob >0:  global are included, otherwise ignored
+    Indglob >0:  global are included, otherwise ignored
    
-   namescats:   names of category-specific variables (global parameters) 
+    namescats:   names of category-specific variables (global parameters) 
                  if no category-specific variables are in the data set, 
                  choose any variable and set Indcats =0
    
-   Indcats >0:  category-specific variables are included, otherwise ignored
+    Indcats >0:  category-specific variables are included, otherwise ignored
    
-   nameshet:    names of variables in heterogeneity term
+    nameshet:    names of variables in heterogeneity term
                   if nameshet <- c()  no heterogeneity term in the model
    
-   nameresp:    name  of response variable
+    nameresp:    name  of response variable
    
-   k:           number of response category
+    k:           number of response category
    
-   penalty:     number >= 0, if penalty=0 pure maximum likelihood
+    penalty:     number >= 0, if penalty=0 pure maximum likelihood
                              if penalty>0 ridge penalized maximum likelihood 
   
 Note: data have to be in long format (each observation provides k rows,  the response is indicated by a 1 in 
