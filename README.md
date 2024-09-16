@@ -7,7 +7,9 @@ Tutz, G. (2020) Uncertain Choices: the Heterogeneous Multinomial Logit Model,
 The R function fits the General Heterogeneous Multinomial Logit Model (GHMNL), which can handle two types of covariates: global (chooser-specific) and category-specific (choice-specific) variables.
 
 Related Publications:
+
 Tutz, G. (2020). "Uncertain Choices: The Heterogeneous Multinomial Logit Model." Sociological Methodology 51(1): 86-111. doi:10.1177/0081175020979689
+
 Mauerer, I. & Tutz, G. (2023). "Heterogeneity in General Multinomial Choice Models." Statistical Methods & Applications 32: 129–148. doi:10.1007/s10260-022-00642-5
 
 
